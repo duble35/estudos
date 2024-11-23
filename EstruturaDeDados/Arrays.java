@@ -11,6 +11,9 @@ public class Arrays {
 
         /*
          * Os arrays em java obedecem a seguinte norma: tipo[] nomeDoArray = new tipo[tamanho(int)];
+         * Arrays em java podem começar vazios: int[] numeros = new int[5];
+         * Arrays em java podem começar com valores: int numeros = {1,2,3,4,5};
+         * Neste último caso temos um array associativo cujo o primeiro ídice sempre será 0;
          */
 
          String[] frutas = new String[5]; //Define o tipo e o tamanho do array;
